@@ -1,5 +1,6 @@
 package br.com.dio;
 
+import br.com.dio.model.Cliente;
 import br.com.dio.model.Gato;
 
 public class PrimeiroPrograma {
@@ -7,18 +8,14 @@ public class PrimeiroPrograma {
 	public static void main(String[] args) {
 		
 		Gato gato = new Gato();
-		Livros livros = new Livros();
+		Cliente cliente = new Cliente();
 		
 		System.out.println(gato);
-		System.out.println(livros);
+		System.out.println(cliente);
 	}
-	
+
 }
 	
-	class Livros{
-		
-		private String nome;
-		private int numberPage;
-	}
+	
 
 
