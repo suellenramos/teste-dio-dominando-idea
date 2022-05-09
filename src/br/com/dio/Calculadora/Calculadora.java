@@ -6,14 +6,14 @@ public class Calculadora {
 
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
+		Scanner entrada = new Scanner(System.in);
 		
 		double a, b;
 		
 		System.out.println("Digite o primeiro valor");
-		a = scan.nextInt();
+		a = entrada.nextInt();
 		System.out.println("Digite o segundo valor");
-		b = scan.nextInt();
+		b = entrada.nextInt();
 		
 		double adicao = soma(a, b);
 		double subtracao = subtracao(a, b);
